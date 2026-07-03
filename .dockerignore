@@ -1,0 +1,5 @@
+# Only the files the image build actually needs enter the build context
+*
+!artifacts/
+!cron
+**/.DS_Store
